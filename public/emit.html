@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Online Recruitment</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" 
+		/>
+		<link rel="stylesheet" href="stylesheets/style.css">
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>	
+        <script src="/socket.io/socket.io.js"></script>
+	</head>
+
+	<body>
+		<div data-role="page" id="page1">
+		    <div data-theme="a" data-role="header">
+		        <a data-role="button" href="index.html" class="ui-btn-left" data-ajax="false">
+		            Inicio
+		        </a>
+		        <h3>
+		            Emitir Video
+		        </h3>
+		    </div>
+		    <div data-role="content">
+		    	<div class="videoEmit">
+					<video id = "video" autoplay width="100%"></video>		    		
+		    	</div>
+				<div id = "logger"></div>
+				<span id="gum-partially-supported" class="hidden">API partially supported (video only)</span>
+		    </div>
+		</div>
+		<script src="js/emit.js"></script>
+	</body>
+
+</html>

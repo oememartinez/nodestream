@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.videoEmit{
+	border:5px solid black;
+	box-shadow: 10px 6px 18px #000;
+	height: 450px;
+	max-width: 980px;
+	margin:10px auto;
+	position: relative;
+}
+
+.videoEmit video{
+	height: 450px;
+	max-width: 100%;
+	object-fit: fill !important;
+}
+ .hidden
+{
+	display: none;
+}
